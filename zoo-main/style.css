@@ -1,0 +1,67 @@
+body{
+    margin:0;
+	padding:0;
+
+}
+header {
+	background-image:url(img/777.jpg);
+	color:black;
+	object-fit: cover;
+	background-position: center;
+	background-size:cover;
+    padding:4em 13% 4em 13%;
+	text-align:center;
+	font-size:20px;/*--ถ้าตัวอักษรใหญ่รูปก็จะใหญ่--*/
+}
+ul.menu{
+    background:#228B22;
+	margin:0;
+	list-style-type:none;
+	padding:0 5% 0 5%;
+	position:relative;
+	overflow:auto;
+}
+ul.menu li a {
+	text-decoration:none;
+	color:white;
+	font-size:1.2em;
+	float:left;
+	padding:1em 0.8em 1em 1em;
+}
+article{display:block;}
+article> section{
+	padding:0 10% 0 10%;
+	background-color:rgba(255,255,255,0.7);
+}
+#ani{
+	color:DarkGreen;
+	border-bottom:solid 3px DarkGreen;
+}
+#pp{
+	text-indent:50px;/*ย่อหน้า*/
+	text-align:justify;/*ชิดขอบซ้ายขวา*/
+}
+#img2{width:70%;
+object-fit: cover;}
+#pp2{
+	color:#3CB371;
+	font-size: 40px
+}
+#pp3{
+	color:#191970;
+	font-size: 38px
+}
+#pp4{
+	color:#508D4E;
+	font-size: 40px
+}
+#pp5{
+	color:#00FF7F;
+}
+h1{
+	
+		font-family: "Niramit", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+	
+}

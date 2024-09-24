@@ -1,0 +1,130 @@
+html,body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/* head */
+header{
+    background-color: #E76F51;
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.head>img{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 0.2%;
+}
+.head>h1{
+    padding: 3.2rem;
+    padding-left: 110px;
+    margin: 0%;
+}
+
+/* main */
+
+.img-colum{
+    width: 35%;
+}
+.content{
+    position: relative;
+    top: 1%;
+    width: 100%;
+    height: 77%;
+}
+.content-top,.content-center,.content-bottom{
+    position: relative;
+    width: 100%;
+}
+.content-top{
+    top: 1%;
+}
+.content-center{
+    top: 34%;
+}
+.content-bottom{
+    top: 65%;
+}
+
+.img-left{
+    position:absolute;
+    text-align: center;
+    width: 33%;
+
+}
+div.img-left{
+    /* width: 350px;
+    height: 150px; */
+    width: 30%;
+    height: 35%;
+}
+.img-center{
+    position: absolute;
+    text-align: center;
+    width: 33%;
+    left: 35%;
+
+}
+div.img-center{
+    /* width: 350px;
+    height: 150px; */ 
+    width: 30%;
+    height: 35%;
+}
+.img-right{
+    position: absolute;
+    text-align: center;
+    width: 33%;
+    left: 70%;
+
+}
+div.img-right{
+    /* width: 350px;
+    height: 150px; */
+    width: 30%;
+    height: 35%;
+}
+/* other page */
+.content-other{
+    position: relative;
+}
+.img-inpage{
+    width: 35%;
+    right: 2%;
+    top: 20%;
+    position: absolute;
+   
+}
+.h2-page{
+    text-align:left;
+    padding-left: 2%;
+    
+}
+.text{
+    width: 60%;
+    font-size: large;
+    padding-left: 1%;
+}
+.bottom{
+    padding-left: 1%;
+    position: absolute;
+}
+
+
+/* foot */
+footer{
+    /* position: absolute; */
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 2%;
+    background-color: gray;
+    
+}
+footer> div{
+    color: #fff;
+}
