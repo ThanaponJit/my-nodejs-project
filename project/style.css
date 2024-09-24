@@ -1,0 +1,30 @@
+html,body{padding: 0;
+margin: 0;}
+.content{
+    width: 750px;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: tomato;
+    text-align: center;
+}
+.side-bar{
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+    display: block;
+    float: left;
+}
+.main-content{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background-color: yellow;
+}
