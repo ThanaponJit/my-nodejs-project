@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery Basic</title>
+
+<style>
+    #box {
+    
+    position: relative;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+// โค้ด jQuery จะเขียนตรงนี้
+$("#changeText").click(function(){
+$("#text").text("ข้อความถูกเปลี่ยนโดย jQuery!");
+});
+
+$("#hide").click(function(){
+$("#text").hide();
+});
+$("#show").click(function(){
+$("#text").show();
+});
+
+$("#moveBox").click(function(){
+$("#box").animate({left: '250px'});
+});
+
+$("#changeColor").click(function(){
+$("#box").css("background-color", "blue");
+});
+
+$("#animateBox").click(function(){
+$("#box").css("background-color", "green").animate({
+left: '250px',
+height: '150px',
+width: '150px',
+backgroundColor: 'green'
+}, 1000); // ระยะเวลา 1 วินาที
+
+});
+
+
+});
+</script>
+</head>
+<body>
+<h1>ยินดีต้อนรับ</h1>
+<p id="text">นี่คือย่อหน้าที่จะถูกแก้ไขโดย jQuery</p>
+<button id="changeText">เปลี่ยนข้อความ</button>
+<button id="hide">ซ่อน</button>
+<button id="show">แสดง</button>
+<div id="box" style="width:100px; height:100px; background-color:red;"></div>
+<button id="moveBox">ขยับกล่อง</button>
+<button id="changeColor">เปลี่ยนสี</button>
+<button id="animateBox">animate</button>
+</body>
+</html>
